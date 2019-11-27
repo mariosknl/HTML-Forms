@@ -9,7 +9,6 @@ our goal is to give an answer to each of these questions
     Why are forms probably the most important part of your site?
     How do you construct a basic form?
     How do you specify which path the form gets submitted to?
-    When would you want to submit using GET vs POST requests?
     What are all the possible form element types?
     When should you use checkboxes instead of radio buttons?
     When should you use a combobox/dropdown instead of a text field?
