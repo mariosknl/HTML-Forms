@@ -3,5 +3,5 @@ body{
 }
 
 .upper-right-elements{
-    text-align: right;
+    display: flex; 
 }
