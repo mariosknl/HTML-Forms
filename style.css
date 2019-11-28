@@ -75,7 +75,7 @@ li a {
     text-decoration: none;
   }
   
-p{
+.footer-text{
     justify-content: center;
     display: flex;
     font-size: 8pt;
@@ -86,7 +86,7 @@ p{
 }
 
 .form-body{
-      height: 670px;
+      height: 620px;
       width: 380px;
       background-color: white;
       top: 0;
@@ -94,26 +94,32 @@ p{
       bottom: 0;
       left: 0;
       margin: auto;
-      padding-top: 2%;
-      padding-left: 20px;
       border:1px solid;
+      font-size: 10pt;
+  }
+
+  .form-fields{
+    padding-top: 2%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 h2{
     font-weight: 10;
 }
+
 .learn-more-link{
     font-size: 8pt;
 }
 
 .form-input{
-    width: 360px;
+    width: 330px;
     text-align: left;
     margin-bottom: 50px;
 }
 
 input{
-    width: 360px;
+    width: 330px;
     height: 40px;
     border-radius: 1px;
     border: 1px solid;
@@ -121,7 +127,7 @@ input{
 }
 
 .create-account-button{
-    width: 360px;
+    width: 330px;
     border: 2px;
     border-color: black;
     background-color:#0077C5;
@@ -131,7 +137,41 @@ input{
     color: white;
     cursor: pointer;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 3%;
 
 }
 
+.captcha{
+    height: 54px;
+    width: 380px;
+    background-color: lightgray;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.disclaimer-create {
+    font-size: 9pt;
+}
+
+.captcha-text{
+    font-size: 8pt;
+}
+
+label{
+    margin-bottom: 5px;
+    display:inline-block
+}
+
+.phone-text{
+    margin-top: 5px;
+    display:inline-block
+}
+
+.lock-element {
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 1.5rem 1.5rem;
+}
